@@ -1,0 +1,19 @@
+{% include 'header.html' %}
+<html>
+    <head>
+        <title>File Upload</title>
+        {% load bootstrap5 %}
+  {% bootstrap_css %}
+  {% bootstrap_javascript %}
+    </head>
+    <body>
+        {% block content %}
+
+        {% endblock%}
+    </body>
+</html>
+<script>
+	$(document).ready(function(){
+		$(".alert").hide(4000);
+	});		
+</script>
